@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShipSmart.com</title>
+</head>
+<link rel="stylesheet" href="Contact.css">
+
+<body>
+    <div>
+        <div class="container">
+            <nav class="navbar">
+                <h1 class="box">
+                    ShipSmart
+                </h1>
+                <ul class="box1">
+                    <a href="Home.html">
+                        <li class="child">Home</li>
+                    </a>
+                    <a href="About.html">
+                        <li class="child">About</li>
+                    </a>
+                    <a href="Service.html">
+                        <li class="child">Service</li>
+                    </a>
+                    <li id="contact" class="child">Contact</li>
+                </ul>
+                <div class="box2">
+                    <p class="num1">FREE CALL IN INDIA</p>
+                    <h1 class="num">1234567890</h1>
+                </div>
+            </nav>
+        </div>
+        <section class="contact-container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out to us!</p>
+            
+            <div class="form-container">
+                <form action="submit_form.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+    
+            <div class="contact-info">
+                <h3>Our Office</h3>
+                <p><strong>ShipSmart Logistics</strong></p>
+                <p>1234 Shipping Road, Logistics City, India</p>
+                <p>Phone: 1234567890</p>
+                <p>Email: contact@shipsmart.com</p>
+            </div>
+        </section>
+        <div>
+            <footer class='foot'>
+                <p>&copy; Copyright 2024: ShipSmart.com</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
